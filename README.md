@@ -22,3 +22,13 @@ $ jupyter notebook --NotebookApp.use_redirect_file=False
 
 for jupyter lab:
 $ jupyter lab --NotebookApp.use_redirect_file=False
+
+# commands you keep confusing
+
+- source venv/bin/activate
+- docker-compose up -d (-d to make it detached)
+- dbt databases defined for project in ~/.dbt/profile.yml
+- psql -h localhost -p 5432 -U postgres -d Adventureworks  
+      (sudo apt install postgresql-client)
+- 
+
